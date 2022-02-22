@@ -1,5 +1,5 @@
 let inputFieldElem = document.querySelector('.input')
-let guessBtnElement = document.querySelector(".guessBtn")
+let guessBtnElement = document.querySelector('.guessbtn')
 let messageElem = document.querySelector('.message')
 let randomNumber = Math.ceil((Math.random() * 100))
 
@@ -8,3 +8,4 @@ function guessGame(){
 messageElem.innerHTML = 'Your guess is too high'
     }
 }
+guessBtnElement.addEventListener('click', guessGame)
