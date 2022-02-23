@@ -22,7 +22,7 @@ function guessGame() {
         
     }
 
-//    outOfRange()
+
     setTimeout(function () {
         messageElem.innerHTML = '';
         successElem.innerHTML = ''
@@ -34,7 +34,7 @@ function newGuess() {
     setTimeout(function () {
        
         successElem.innerHTML = 'New game has started!!!'
-        // successElem.innerHTML = ''
+       
         randomNumber = Math.ceil((Math.random() * 100))
        
 
@@ -42,11 +42,6 @@ function newGuess() {
 
 }
 
-// function outOfRange(){
-//     if(inputFieldElem.value < 1 && inputFieldElem.value > 100){
-//         messageElem.innerHTML = 'The number you entered is out of range'
-//     }
-// }
 
 guessBtnElement.addEventListener('click', guessGame)
 
