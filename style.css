@@ -1,0 +1,26 @@
+body{
+    background: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.container{
+    
+    margin: auto;
+    width: 50%;
+    background-color: crimson;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border: solid black;
+    border-radius: 25%;
+    background-image: linear-gradient(rgba(101, 4, 110, 0.8), rgba(143, 163, 142, 0.8)), url(./—Pngtree—cool\ technology\ sense\ information\ technology_1046698.jpg);
+}
+
+.success{
+    color: green;
+    font-weight: bolder;
+}
+
+.red{
+    color: red;
+}
