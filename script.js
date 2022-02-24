@@ -30,6 +30,7 @@ function guessGame() {
         newGame.innerHTML = '';
 
     }, 3000);
+    inputFieldElem.value =''
 
 }
 
